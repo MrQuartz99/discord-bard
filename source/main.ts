@@ -2,10 +2,14 @@ import { Client, GatewayIntentBits  , Collection } from 'discord.js'
 import dotenv from 'dotenv'
 dotenv.config({ path: './source/.env' })
 
-
+import { initializeDatabase } from './database'
+initializeDatabase()
 const client = new Client({
     intents: [
-        GatewayIntentBits.Guilds
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.MessageContent,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.DirectMessages,
     ]
 })
 
