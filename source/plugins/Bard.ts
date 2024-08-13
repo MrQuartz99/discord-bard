@@ -49,7 +49,6 @@ const run = async (prompt: string, type?: string , chatId?: string, message?: Me
         await newChat.save()
         chatId = newChat._id.toString()
     }
-    console.log(history)
     history.push({ role: "user", parts: [{text: prompt}] })
 
     const chat = await model.startChat({ history: history })
