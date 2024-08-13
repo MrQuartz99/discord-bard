@@ -15,3 +15,5 @@ Get your own AI Bot setup in minutes and start the adventure!
 6. Invite the bot you created to your server
 7. /setup & Enjoy!
 
+- Note: Currently Gemini API Free tier is not currently Supported in UK & Europe
+
