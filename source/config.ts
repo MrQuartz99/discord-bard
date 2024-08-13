@@ -2,7 +2,7 @@ import {ActivityType} from 'discord.js'
 
 
 export default {
-    Activity: "GPTTSS",
+    Activity: "Bard AI",
     Type: ActivityType.Playing, 
 
 }
