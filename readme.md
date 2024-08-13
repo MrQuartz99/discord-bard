@@ -11,6 +11,7 @@ Get your own AI Bot setup in minutes and start the adventure!
 2. Make sure to install typescript, `npm install typescript -g` (globally) or `npm install typescript --save-dev` (locally)
 3. Type: `npm install`
 4. Fill out .env file located in source/.env
-5. Invite the bot you created to your server
-6. /setup & Enjoy!
+5. Type: `npm start`
+6. Invite the bot you created to your server
+7. /setup & Enjoy!
 
